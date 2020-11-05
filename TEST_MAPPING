@@ -2,11 +2,15 @@
 {
   "presubmit": [
     {
-      "name": "fnv_host_test_lib",
-      "host": true
+      "host": true,
+      "name": "fnv_host_test_lib"
     },
     {
       "name": "fnv_device_test_lib"
+    },
+    {
+      "host": true,
+      "name": "tokio-macros_host_test_src_lib"
     }
   ]
 }
