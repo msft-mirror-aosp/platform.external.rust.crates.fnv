@@ -5,6 +5,11 @@
       "path": "external/rust/crates/vulkano"
     }
   ],
+  "postsubmit": [
+    {
+      "name": "fnv_test_lib"
+    }
+  ],
   "presubmit": [
     {
       "name": "fnv_test_lib"
