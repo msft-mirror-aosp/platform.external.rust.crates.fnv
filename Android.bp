@@ -45,7 +45,7 @@ rust_test {
     crate_name: "fnv",
     cargo_env_compat: true,
     cargo_pkg_version: "1.0.7",
-    srcs: ["lib.rs"],
+    crate_root: "lib.rs",
     test_suites: ["general-tests"],
     auto_gen_config: true,
     test_options: {
@@ -64,7 +64,7 @@ rust_library {
     crate_name: "fnv",
     cargo_env_compat: true,
     cargo_pkg_version: "1.0.7",
-    srcs: ["lib.rs"],
+    crate_root: "lib.rs",
     edition: "2015",
     features: [
         "default",
